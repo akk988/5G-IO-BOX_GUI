@@ -12,7 +12,7 @@ pipeline {
                 echo 'python .\manage.py makemigrations'
             }
             steps {
-                echo 'python .\manage.py migrate'
+                echo 'python manage.py migrate'
             }
         }
         stage('Jenkins') {
