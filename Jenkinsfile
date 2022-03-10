@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Migration') {
             steps {
-                echo 'python .\manage.py makemigrations'
+                echo 'python manage.py makemigrations'
             }
             steps {
                 echo 'python manage.py migrate'
