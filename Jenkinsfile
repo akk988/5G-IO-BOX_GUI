@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'Pipeline for 5G-IO-BOX started'
             }
         }
         stage('Jenkins') {
